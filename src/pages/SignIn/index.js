@@ -20,6 +20,7 @@ export default function SignIn() {
           <TextInput
             placeholder="Your Password"
             style={styles.input}
+            secureTextEntry={true}
           />
 
           <TouchableOpacity style={styles.button}>
