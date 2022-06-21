@@ -12,12 +12,16 @@ export default function SignIn() {
       <Animatable.View animation="fadeInUp" style={styles.containerForm}>
           <Text style={styles.title}>Email</Text>
           <TextInput
+            icon="mail"
             placeholder="Enter an Email"
+            keyboardType="email-address"
+            autoCapitalize="none"
             style={styles.input}
           />  
       
           <Text style={styles.title}>Password</Text>
           <TextInput
+            icon="lock"
             placeholder="Your Password"
             style={styles.input}
             secureTextEntry={true}
